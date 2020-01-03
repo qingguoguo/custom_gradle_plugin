@@ -1,0 +1,11 @@
+version '1.0'
+
+apply plugin: 'java'
+
+apply plugin: 'com.qgg.oneplugin' // 使用自定义插件
+apply plugin: 'com.qgg.twoplugin' // 使用自定义插件
+
+sourceCompatibility = 1.8
+
+dependencies {
+}

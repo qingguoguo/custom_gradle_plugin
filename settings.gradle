@@ -1,0 +1,4 @@
+rootProject.name = 'custom_gradle_plugin'
+include 'plugin_src'
+include 'plugin_smaple'
+
