@@ -20,4 +20,5 @@ android {
 }
 
 dependencies {
+    //embed(name: 'lib-aar-local2', ext: 'aar')
 }
