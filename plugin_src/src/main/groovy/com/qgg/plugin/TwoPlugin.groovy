@@ -1,6 +1,6 @@
 package com.qgg.plugin
 
-import com.qgg.plugin.task.TwoTask
+
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 

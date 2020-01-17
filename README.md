@@ -5,6 +5,7 @@
 * build module后会在/build/libs/目录下生成XXXXXX.jar
 
 # Gradle构建过程
+Gradle的构建包含3个阶段：初始化阶段、配置阶段、执行阶段
 * 初始化阶段
 
     读取根目录中的setting.gradle中的include信息，确定有多少module加入
@@ -16,4 +17,5 @@
 
     根据配置阶段获取到的配置信息和任务依赖顺序图执行对应的task
 
-一个Project有若干的task，而一个task有若干的action
+一个Project有若干的task，一个task有若干的action
+

@@ -3,10 +3,7 @@ version '1.0'
 apply plugin: 'com.android.library'
 
 apply plugin: 'com.qgg.fataarplugin' // 使用自定义插件
-//apply plugin: 'com.qgg.oneplugin' // 使用自定义插件
 apply plugin: 'com.qgg.twoplugin' // 使用自定义插件
-
-sourceCompatibility = 1.8
 
 android {
     compileSdkVersion 27

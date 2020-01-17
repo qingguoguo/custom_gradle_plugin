@@ -12,7 +12,7 @@ class FatAarPlugin implements Plugin<Project> { // 自定义插件要实现Plugi
     void apply(Project project) {
         project.task('fatPluginTask') { // 定义了一个task，名字为CustomPluginTask
             doLast {
-                println "*** fat aar 插件***"
+                println "*** running fat aar 插件 ***"
                 checkAndroidPlugin(project)
                 createConfig(project)
             }
